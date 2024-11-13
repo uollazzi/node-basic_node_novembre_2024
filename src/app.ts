@@ -42,3 +42,8 @@ myPath();
 console.log("|*".repeat(20));
 import myFs from "./es-fs";
 myFs();
+
+// richieste
+console.log("|*".repeat(20));
+import { getPosts, getPostSync } from "./richieste";
+getPostSync();
